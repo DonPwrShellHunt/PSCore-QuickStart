@@ -1,5 +1,7 @@
 # PSCore-QuickStart
 
+I have added gitpod configuration files to this repository, in order to experiment with the gitpod development tooling. Once I have figured out whether this is going to work, I may alter these files or remove them.
+
 This project is a quick start for experienced coders new to the PowerShell syntax. Files in the demo are broken into subjects. Each file has extensive comments that explain the concepts.
 
 This project is included in my Pluralsight course "PowerShell 7 Quick Start for Developers on Linux, macOS, and Windows". See my [About Me](http://arcanecode.me) page for a link to the course.
