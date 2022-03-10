@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-dotnet
 
 RUN sudo apt-get update; \
     sudo apt-get install -y wget apt-transport-https software-properties-common; \
