@@ -9,6 +9,6 @@ RUN sudo apt-get update; \
 
 RUN dotnet tool install --global powershell
 
-RUN cat << \EOF >> ~/.bash_profile;
-export PATH="$PATH:/home/gitpod/.dotnet/tool";
-EOF;
+RUN cat << \EOF >> ~/.bash_profile; \
+export PATH="$PATH:/home/gitpod/.dotnet/tool"; \
+EOF
