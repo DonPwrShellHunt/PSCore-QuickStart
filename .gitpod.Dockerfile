@@ -7,4 +7,5 @@ RUN sudo apt-get update; \
     sudo apt-get update; \
     sudo apt-get install -y powershell
 
-RUN dotnet tool install --global powershell
+RUN dotnet tool install --global powershell; \
+    echo "export PATH=$PATH:$HOME/.dotnet/tools" >> ~/.bash_profile
